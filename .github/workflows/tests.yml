@@ -9,6 +9,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install Cuis University
-        run: ./installCuis.sh
+        run: ./.github/workflows/installCuis.sh
       - name: Run tests
-        run: ./runTests.sh MarsRover MarsRoverTest
+        run: ./.github/workflows/runTests.sh MarsRover MarsRoverTest

@@ -17,6 +17,9 @@ RUN_TESTS_SCRIPT="\
   Smalltalk quitPrimitive: exitCode.
 "
 
+cp ./.github/workflows/*.st .
+
 ./linux64/vmLiveTyping/squeak -vm-display-null $CUIS_DIR/"$IMAGE_FILE" -d "$RUN_TESTS_SCRIPT"
 
-rm -rf linux64 UserChanges
+rm -rf linux64 UserChanges TestResultConsolePrinter.st
+rm *.tar.gz ._linux64
