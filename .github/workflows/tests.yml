@@ -11,4 +11,4 @@ jobs:
       - name: Install Cuis University
         run: ./installCuis.sh
       - name: Run tests
-        run: ./runTests.sh
+        run: ./runTests.sh MarsRover MarsRoverTestt
