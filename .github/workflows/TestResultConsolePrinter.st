@@ -1,3 +1,5 @@
+" https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev/blob/master/.ContinuousIntegrationScripts/TestResultConsolePrinter.st "
+
 'From Cuis 5.0 [latest update: #3877] on 16 September 2019 at 7:37:07 pm'!
 !classDefinition: #TestResultConsolePrinter category: #'System-Support'!
 Object subclass: #TestResultConsolePrinter
