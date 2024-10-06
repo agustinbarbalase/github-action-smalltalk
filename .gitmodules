@@ -1,3 +1,0 @@
-[submodules ".github/workflows/TestResultConsolePrinter.st"]
-  path = .github/workflows/TestResultConsolePrinter.st
-  url = https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev/blob/master/.ContinuousIntegrationScripts/TestResultConsolePrinter.st
