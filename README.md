@@ -4,7 +4,7 @@ This is a implementation for run tests in Smalltalk used for CI/CD integration
 
 ## Extern code
 
-The implementation use [TestResultConsolePrinter.st](.github/workflows/TestResultConsolePrinter.st)' for
+The implementation use [TestResultConsolePrinter.st](.github/workflows/TestResultConsolePrinter.st) for
 show result of tests. This implementations is inspired in CI/CD used in
 [Cuis](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev/tree/master) image
 
